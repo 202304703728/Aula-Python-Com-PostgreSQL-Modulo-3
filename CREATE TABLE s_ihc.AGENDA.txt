@@ -1,0 +1,14 @@
+CREATE TABLE s_ihc."AGENDA"
+(
+    id integer NOT NULL,
+    nome text COLLATE pg_catalog."default" NOT NULL,
+    telefone character(12) COLLATE pg_catalog."default" NOT NULL,
+    PRIMARY KEY (id)
+)
+TABLESPACE ihc;
+
+ALTER TABLE IF EXISTS s_ihc."AGENDA"
+    OWNER to postgres;
+
+COMMENT ON TABLE s_ihc."AGENDA"
+    IS 'Tabela AGENDA criada para a aula de IHC';

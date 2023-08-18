@@ -1,0 +1,5 @@
+CREATE SCHEMA s_ihc
+    AUTHORIZATION postgres;
+
+COMMENT ON SCHEMA s_ihc
+    IS 'Schema criado para a aula de IHC';

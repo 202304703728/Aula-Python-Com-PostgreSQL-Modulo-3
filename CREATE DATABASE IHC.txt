@@ -1,0 +1,16 @@
+-- Database: IHC
+
+-- DROP DATABASE IF EXISTS "IHC";
+
+CREATE DATABASE "IHC"
+    WITH
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    LC_COLLATE = 'Portuguese_Brazil.1252'
+    LC_CTYPE = 'Portuguese_Brazil.1252'
+    TABLESPACE = ihc
+    CONNECTION LIMIT = -1
+    IS_TEMPLATE = True;
+
+COMMENT ON DATABASE "IHC"
+    IS 'Database criado para a aula de IHC';
