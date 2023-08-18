@@ -1,16 +1,14 @@
--- Database: IHC
+-- Database: ihc
 
--- DROP DATABASE IF EXISTS "IHC";
+-- DROP DATABASE IF EXISTS "ihc";
 
-CREATE DATABASE "IHC"
+CREATE DATABASE ihc
     WITH
     OWNER = postgres
     ENCODING = 'UTF8'
-    LC_COLLATE = 'Portuguese_Brazil.1252'
-    LC_CTYPE = 'Portuguese_Brazil.1252'
     TABLESPACE = ihc
     CONNECTION LIMIT = -1
-    IS_TEMPLATE = True;
+    IS_TEMPLATE = False;
 
-COMMENT ON DATABASE "IHC"
+COMMENT ON DATABASE ihc
     IS 'Database criado para a aula de IHC';
