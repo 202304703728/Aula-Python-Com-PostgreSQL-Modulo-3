@@ -1,0 +1,1 @@
+SELECT * FROM s_ihc."AGENDA";
